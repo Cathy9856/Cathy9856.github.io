@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, ul, li{ margin:0 auto; padding:0;}
+li{ list-style:none;}
+input{ padding:2px 5px;}
+a{ text-decoration: none;}
+
+.index-search{ height: 52px; padding:17px 23px; background-color:#1b89dd; border-top: 1px solid #9bd4ff; border-bottom: 1px solid #00477e;}
+.search{ height: 50px; position:relative;}
+.search-input{ margin-right: 140px;}
+.search-input input{ float:left; width: 100%; height: 46px; line-height: 46px\9; border: 0; border-radius: 3px; box-shadow: inset 1px 1px 1px #103755;}
+.search-btn{ width: 115px; height: 50px; line-height: 50px; text-align: center; background-color: #5fbaff; font-size: 24px; font-family:"微软雅黑"; color: #fff; border-radius: 3px; position: absolute; right: 0;}
+
+.index-nav a{ display: block; color: #fff; position: relative;}
+.index-nav li{ height: 85px; line-height: 85px; padding: 0 23px; font-family: "微软雅黑"; font-size: 32px; color: #fff; background-color: #1b89dd; border-top: 1px solid #9bd4ff; border-bottom: 1px solid #00477e;}
+.index-nav span{ display: inline-block; padding-left:30px;}
+.index-nav .arrow{ width: 27px; height: 27px; background: url(../../../Image/m_shop/ST001_PL001/arrow.png) no-repeat 0 0; position: absolute; right: 0; top: 30px;}
+
+.layer{ width:100%; background-color:#4a4a4a; position: fixed; bottom: 0;}
+.layer .layer-nav{ height:94px;}
+.layer .layer-nav li{ float:left; width:128px; height:94px;}
+.layer .layer-nav a{ display: inline-block; width:128px; height:94px; line-height:150px; font-family:"微软雅黑"; font-size:16px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat 45px 18px;}
+.layer .layer-nav a:hover{ background-color: #1b89dd;}
+.layer .layer-nav .layer-index{background-position:45px 18px;}
+.layer .layer-nav .layer-product{background-position:45px -70px;}
+.layer .layer-nav .layer-tel400{background-position:45px -153px;}
+.layer .layer-nav .layer-service{background-position:45px -238px;}
+.layer .layer-nav .layer-message{background-position:42px -315px;}
+.layer .layer-nav .layer-wechat{background-position:45px -395px;}
+.layer .layer-nav .layer-callback{background-position:45px -478px;}
+.layer .layer-nav .layer-code{background-position:45px -558px;}
+
+.layer .speed-bar{ height:4px; background-color:#787878;}
+.layer .speed-bar .speed{ height:4px; background-color:#69beff;}
