@@ -7,7 +7,7 @@ input{ padding:2px 5px;}
 a{ text-decoration: none;}
 
 @media screen and (min-width: 320px) and (max-width: 639px) {
-	.index-search{ height: 26px; padding:17px 23px; background-color:#1b89dd; border-top: 1px solid #9bd4ff; border-bottom: 1px solid #00477e;}
+	.index-search{ height: 26px; padding:8px 12px; background-color:#1b89dd; border-top: 1px solid #9bd4ff; border-bottom: 1px solid #00477e;}
 	.search{ height: 25px; position:relative;}
 	.search-input{ margin-right: 70px;}
 	.search-input input{ float:left; width: 100%; height: 28px; line-height: 28px\9; font-size:16px; border: 0; border-radius: 3px; box-shadow: inset 1px 1px 1px #103755;}
@@ -22,7 +22,7 @@ a{ text-decoration: none;}
 	.layer .layer-nav{ height:47px;}
 	.layer .layer-nav ul{ width:513px;}
 	.layer .layer-nav li{ float:left; width:64px; height:47px;}
-	.layer .layer-nav a{ display: inline-block; width:64px; height:47px; line-height:75px; font-family:"微软雅黑"; font-size:16px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat;}
+	.layer .layer-nav a{ display: inline-block; width:64px; height:47px; line-height:75px; font-family:"微软雅黑"; font-size:14px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat; background-size:32px;}
 	.layer .layer-nav a:hover{ background-color: #1b89dd;}
 	.layer .layer-nav .layer-index{background-position:22px 9px;}
 	.layer .layer-nav .layer-product{background-position:22px -35px;}
