@@ -24,14 +24,14 @@ a{ text-decoration: none;}
 	.layer .layer-nav li{ float:left; width:64px; height:47px;}
 	.layer .layer-nav a{ display: inline-block; width:64px; height:47px; line-height:75px; font-family:"微软雅黑"; font-size:16px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat; background-size:32px;}
 	.layer .layer-nav a:hover{ background-color: #1b89dd;}
-	.layer .layer-nav .layer-index{background-position:45px 18px;}
-	.layer .layer-nav .layer-product{background-position:45px -70px;}
-	.layer .layer-nav .layer-tel400{background-position:45px -153px;}
-	.layer .layer-nav .layer-service{background-position:45px -238px;}
-	.layer .layer-nav .layer-message{background-position:42px -315px;}
-	.layer .layer-nav .layer-wechat{background-position:45px -395px;}
-	.layer .layer-nav .layer-callback{background-position:45px -478px;}
-	.layer .layer-nav .layer-code{background-position:45px -558px;}
+	.layer .layer-nav .layer-index{background-position:22px 9px;}
+	.layer .layer-nav .layer-product{background-position:22px -35px;}
+	.layer .layer-nav .layer-tel400{background-position:22px -76px;}
+	.layer .layer-nav .layer-service{background-position:22px -119px;}
+	.layer .layer-nav .layer-message{background-position:21px -157px;}
+	.layer .layer-nav .layer-wechat{background-position:22px -197px;}
+	.layer .layer-nav .layer-callback{background-position:22px -239px;}
+	.layer .layer-nav .layer-code{background-position:22px -279px;}
 
 	.layer .speed-bar{ height:4px; background-color:#787878;}
 	.layer .speed-bar .speed{ height:4px; background-color:#69beff;}
