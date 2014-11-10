@@ -22,7 +22,7 @@ a{ text-decoration: none;}
 	.layer .layer-nav{ height:47px;}
 	.layer .layer-nav ul{ width:513px;}
 	.layer .layer-nav li{ float:left; width:64px; height:47px;}
-	.layer .layer-nav a{ display: inline-block; width:64px; height:47px; line-height:75px; font-family:"微软雅黑"; font-size:16px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat; background-size:32px;}
+	.layer .layer-nav a{ display: inline-block; width:64px; height:47px; line-height:75px; font-family:"微软雅黑"; font-size:12px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat; background-size:32px;}
 	.layer .layer-nav a:hover{ background-color: #1b89dd;}
 	.layer .layer-nav .layer-index{background-position:22px 9px;}
 	.layer .layer-nav .layer-product{background-position:22px -35px;}
@@ -33,8 +33,8 @@ a{ text-decoration: none;}
 	.layer .layer-nav .layer-callback{background-position:22px -239px;}
 	.layer .layer-nav .layer-code{background-position:22px -279px;}
 
-	.layer .speed-bar{ height:4px; background-color:#787878;}
-	.layer .speed-bar .speed{ height:4px; background-color:#69beff;}
+	.layer .speed-bar{ height:2px; background-color:#787878;}
+	.layer .speed-bar .speed{ height:2px; background-color:#69beff;}
 
 	/* category */
 }
