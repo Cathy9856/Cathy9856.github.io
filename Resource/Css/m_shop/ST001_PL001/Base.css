@@ -13,7 +13,7 @@ a{ text-decoration: none;}
 .banner{ overflow:hidden; position:relative;}
 
 @media screen and (min-width: 320px) and (max-width: 639px) {
-    body{ margin-bottom:48px;}
+    body{ margin-bottom:45px;}
 	.index-search{ height: 30px; padding:8px 12px; background-color:#1b89dd; border-top: 1px solid #9bd4ff; border-bottom: 1px solid #00477e;}
 	.search{ height: 30px; position:relative;}
 	.search-input{ margin-right: 70px;}
