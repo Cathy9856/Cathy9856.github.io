@@ -65,6 +65,7 @@ a{ text-decoration: none;}
 
 	.layer{ width:100%; background-color:#4a4a4a; position: fixed; bottom: 0;}
 	.layer .layer-nav{ height:94px;}
+	.layer .layer-nav ul{width:1024px;}
 	.layer .layer-nav li{ float:left; width:128px; height:94px;}
 	.layer .layer-nav a{ display: inline-block; width:128px; height:94px; line-height:150px; font-family:"微软雅黑"; font-size:12px; color:#fff; text-align:center; background: url(../../../Image/m_shop/ST001_PL001/layer_icon.png) no-repeat 45px 18px;}
 	.layer .layer-nav a:hover{ background-color: #1b89dd;}
