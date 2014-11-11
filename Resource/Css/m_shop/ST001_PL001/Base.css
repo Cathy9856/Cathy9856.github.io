@@ -1,11 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 body, ul, li{ margin:0 auto; padding:0;}
+body{ margin-bottom:96px;}
 li{ list-style:none;}
 input{ padding:2px 5px;}
 a{ text-decoration: none;}
 .ad{ overflow:hidden;}
+.scroll_box {overflow: hidden;visibility: hidden;position: relative;}
+.scroll_wrap li {position: relative;display: block;width: 100%;float: left;}
+.banner{ overflow:hidden; position:relative;}
 
 @media screen and (min-width: 320px) and (max-width: 639px) {
 	.index-search{ height: 30px; padding:8px 12px; background-color:#1b89dd; border-top: 1px solid #9bd4ff; border-bottom: 1px solid #00477e;}
@@ -37,6 +42,9 @@ a{ text-decoration: none;}
 	.layer .speed-bar{ height:2px; background-color:#787878;}
 	.layer .speed-bar .speed{ height:2px; background-color:#69beff;}
 
+	.scroll_position_bg{ position:absolute; left:50%;bottom:12px;}
+	.scroll_position_bg li{ display:inline-block; width:10px; height:10px; border-radius:10px; background-color:#dedede;}
+	.scroll_position_bg li.on{ background-color:#ff0000; box-shadow:inset 1px 1px 1px #8d0000;}
 	/* category */
 }
 
@@ -71,4 +79,7 @@ a{ text-decoration: none;}
 	.layer .speed-bar .speed{ height:4px; background-color:#69beff;}
 
 	/* category */
+	.scroll_position_bg{ position:absolute; left:50%;bottom:12px;}
+	.scroll_position_bg li{ display:inline-block; width:10px; height:10px; border-radius:10px; background-color:#dedede;}
+	.scroll_position_bg li.on{ background-color:#ff0000; box-shadow:inset 1px 1px 1px #8d0000;}
 }
