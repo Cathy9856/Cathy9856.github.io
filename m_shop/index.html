@@ -12,6 +12,7 @@
 	$(function(){
 		//alert($(window).width()); //浏览器当前窗口可视区域宽度
 		//alert($(window).height()); //浏览器当前窗口可视区域宽度
+		//$(".scroll_position li:eq(0)").addClass("on");
 		var slider = Swipe(document.getElementById('scroll_img'), {
 			auto: 3000,
 			continuous: true,
@@ -51,7 +52,7 @@
 		</div>
 		<div class="scroll_position_bg">
 			<ul class="scroll_position" id="scroll_position">
-				<li><a href="javascript:void(0);"></a></li>
+				<li class="on"><a href="javascript:void(0);"></a></li>
 				<li><a href="javascript:void(0);"></a></li>
 				<li><a href="javascript:void(0);"></a></li>
 			</ul>
