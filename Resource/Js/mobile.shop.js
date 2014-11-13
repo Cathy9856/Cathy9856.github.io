@@ -18,7 +18,7 @@ $(function ()
 
 	$("img").error(function ()
 	{
-		this.src = "http://Resource.ebdoor.com/Image/Common/NoImg/200200.jpg";
+		//this.src = "http://Resource.ebdoor.com/Image/Common/NoImg/200200.jpg";
 	});
 
 	//#region PageTop
@@ -139,7 +139,7 @@ $(function ()
 	})();
 	//#endregion
 
-	Ebdoor.Effect.autoPlay(".banner .images ul", { positionBar: ".banner .indexer li" });
+	//Ebdoor.Effect.autoPlay(".banner .images ul", { positionBar: ".banner .indexer li" });
 
 	//#region 首页推荐产品
 	(function ()
@@ -438,7 +438,7 @@ $(function ()
 		var array = [];
 		items.each(function (index, div)
 		{
-			var handle = Ebdoor.Effect.autoPlay($(".images ul", div), { positionBar: $(".scroll li", div), selectedClass: "current" });
+			//var handle = Ebdoor.Effect.autoPlay($(".images ul", div), { positionBar: $(".scroll li", div), selectedClass: "current" });
 			if (handle)
 				array.push({ obj: div, handle: handle });
 		});
@@ -490,17 +490,17 @@ $(function ()
 			unfold_off.hide();
 		});
 	})();
-	Ebdoor.Effect.autoPlay(".prodview .prodscroll>.images>ul", { positionBar: ".prodview .prodscroll>.scroll li", selectedClass: "current" });
+	//Ebdoor.Effect.autoPlay(".prodview .prodscroll>.images>ul", { positionBar: ".prodview .prodscroll>.scroll li", selectedClass: "current" });
 	//#endregion
 
 	//#region 转化工具
 	(function ()
 	{
-		var products = $(".f_layer>ul");
+		var products = $(".layer-nav>ul");
 		if (products.length < 1)
 			return;
 
-		var speedbar = $(".f_layer>.speedbar>.speed");
+		var speedbar = $(".layer>.speed-bar>.speed");
 		var productList = products.children();
 		var listLength = productList.length * productList.first().outerWidth(true, true);
 		var resize = function ()
@@ -570,8 +570,8 @@ $(function ()
 		$(".e_footer span a").trigger("click");
 	});
 
-	Ebdoor.Effect.autoPlay(".ebdad .ad_img ul", {
-		playing: function (index) { $(".ebdad .speedbar .speed").css("marginLeft", index * 320); }
-	});
+	//Ebdoor.Effect.autoPlay(".ebdad .ad_img ul", {
+		//playing: function (index) { $(".ebdad .speedbar .speed").css("marginLeft", index * 320); }
+	//});
 	//#endregion
 });
