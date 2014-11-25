@@ -1,0 +1,505 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----公共样式-----*/
+body{
+	margin:0;
+	padding:0;
+}
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,select,textarea,button,th,td,blockquote,address,pre{margin:0;padding:0;}
+body{
+	font:12px "宋体",Arial,Helvetica,sans-serif;color:#4f5559;
+}
+a{
+	text-decoration:none;
+	color:#4f5559;
+	outline:none;
+}
+a{
+	blr:expression(this.onFocus=this.blur());
+}
+input{
+	outline:none;
+}
+a:hover{
+	text-decoration:none;	
+}
+img{ 
+	border:0 none; 
+	vertical-align:top;
+}
+.clear{
+	clear:both;
+}
+/*li*/
+ul,li{
+	list-style-type:none;
+}
+button{ 
+	cursor:pointer;
+}
+i,em{ 
+	font-style:normal;
+}
+.dislb{
+	display:inline-block; 
+	*display:inline; 
+	*zoom:1;
+}
+/*浮动*/
+.fl{
+	float:left;
+	display:inline;
+}
+.fr{
+	float:right;
+	display:inline;
+}
+.clearfix { 
+	zoom:1; 
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* ---about start样式---*/
+.head-bottom{
+	width:100%;
+	height:100px;
+	background:#fff;
+	vertical-align:middle;
+}
+.head-bottom1{
+	width:1191px;
+	margin:0 auto;
+	height:100px;
+}
+.head-bottom-left{
+	float:left;
+	width:182px;
+	height:63px;
+	padding-top:16px;
+	display:inline;
+}
+.head-bottom-left img{
+	width:182px;
+	height:63px;
+}
+.head-bottom-right{
+	float:right;
+	display:inline;
+	width:152px;
+	height:28px;
+	text-indent:9px;
+	margin-top:33px;
+	color:#fa6400;
+	line-height:28px;
+	border:1px #fa6400 solid;
+	background: url(../../../Image/Www/Aboutus/tag.png) no-repeat 120px -43px;
+}
+.nav{
+	width:100%;
+	background:#fa6400;
+}
+.list{
+	width:1191px;
+	margin:0 auto;
+	padding-left:126px;
+}
+.list li{
+	float:left;
+	display:inline;
+	width:180px;
+	height:69px;
+	line-height:69px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	text-align:center;
+}
+.list li a{
+	display:inline-block;
+	color:#fff;
+	width:180px;
+}
+#navigation li { 
+	float:left; 
+	display:inline;
+	text-align:center; 
+	position:relative; 
+} 
+#navigation li ul li{
+	width:180px;
+	height:35px;
+	line-height:35px;
+	color:#fff; 
+	background:#c40000; 
+	margin-bottom:1px;
+}
+#navigation li ul { 
+	display:none; 
+	position:absolute; 
+	top:69px; 
+	left:0; 
+	margin-top:1px; 
+	width:120px; 
+} 
+.navbut{
+	display:inline-block;
+	width:180px;
+	height:69px;
+	background:#c40000  url(../../../Image/Www/Aboutus/tag.png) no-repeat 135px 35px;
+	_background:#c40000 url(../../../Image/Www/Aboutus/tag1.png) no-repeat 135px 35px;
+}
+#main{
+	width:100%;
+	background:#fff;
+	font-size:14px;
+	line-height:25px;
+	font-family:"微软雅黑";
+	color:#333;
+}
+.summary{
+	width:1146px;
+	margin:0 auto;
+	padding:39px 25px 0 20px;
+}
+h1{
+	font-family:"微软雅黑";
+	font-weight:bold;
+	font-size:28px;
+	padding-bottom:75px;
+}
+.summary1{
+	margin-bottom:50px;
+}
+.map1{
+	float:left;
+	display:inline;
+	width:538px;
+	height:299px;
+}
+.map1 img{
+	width:538px;
+	height:299px;
+}
+.text{
+	padding-top:47px;
+	width:521px;
+	line-height:25px;
+	margin-left:75px;
+    display:inline-block;
+}
+p{
+	margin-bottom:25px;
+}
+.p-bottom{
+	margin-bottom:77px;
+}
+
+.summary2{
+	height:356px;
+	padding-bottom:191px;
+	border-bottom:1px #ccc solid;
+}
+.map2{
+	float:right;
+	width:689px;
+	height:356px;
+}
+.map2 img{
+	float:right;
+	width:689px;
+	height:356px;
+}
+
+/*   dynamic start  */
+.dynamic{
+	width:1191px;
+	margin:0 auto;
+	font-family:"微软雅黑";
+	padding:40px 23px 0 18px;
+}
+.dynamic h1{
+	padding-bottom:42px;
+}
+.navbut_dynamic{
+	display:inline-block;
+	width:180px;
+	height:69px;
+	background:#c40000 ;
+}
+.box{
+	margin-bottom:25px;
+}
+.detail{
+	float:left;
+	width:266px;
+	height:220px;
+	font-size:16px;
+	line-height:23px;
+	display:inline;
+	margin-right:31px;
+	margin-bottom:47px;
+	border-bottom:6px #fa6400 solid;
+}
+.time{
+	height:35px;
+	line-height:35px;
+	margin-bottom:18px;
+	text-indent:12px;
+	background:#e3e3e3;
+}
+.detail_span{
+	display:inline-block;
+	padding-left:12px;
+	margin-bottom:66px;
+}
+.see{
+	display:inline-block;
+	width:86px;
+	height:19px;
+	line-height:19px;
+	text-align:right;
+	color:#008aeb;
+	background:url(../../../Image/Www/1.png) no-repeat left bottom;
+}
+.box-footer{
+	padding-left:229px;
+	margin-bottom:75px;
+}
+.box-footer ul li{
+	float:left;
+	font-size:10px;
+	color:#000;
+}
+.box-footer ul li a{
+	padding:6px 12px;;
+	margin-right:6px;
+	color:#000;
+	font-size:10px;
+	border:1px #CCC solid;
+}
+.event{
+	background:red;
+}
+.box-footer1{
+	margin-left:15px;
+}
+input{
+	display:inline-block;
+	vertical-align:middle;
+	width:42px;
+	height:20px;
+}
+.goto{
+	width:150px;
+	margin-right:18px;
+}
+/*   dynamic_detail start  */
+.navbut_dynamic{
+	display:inline-block;
+	width:180px;
+	height:69px;
+	background:#c40000 ;
+}
+
+.content{
+	width:1191px;
+	margin:0 auto;
+	padding-top:80px;
+}
+h3{
+	width:800px;
+	margin:0 auto;
+	margin-bottom:32px;
+	color:#000;
+	font-size:30px;
+	font-family:none;
+	font-weight:bold;
+}
+.content_span{
+	display:block;
+	font-size:16px;
+	font-family:"微软雅黑";
+	height:35px;
+	line-height:35px;
+	text-indent:22px;
+	margin-bottom:35px;
+	background:#e3e3e3;
+}
+.content-center{
+	padding:0 20px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:#000;
+}
+.content-center p{
+	color:#333;
+	line-height:25px;
+	margin-bottom:25px;
+}
+.content-center p.title{
+	font-weight:bold;
+}
+.print{
+	width:1191px;
+	height:478px;
+}
+.print1{
+	width:649px;
+	height:434px;
+	margin:0 auto;
+}
+.print img{
+	width:649px;
+	height:434px;
+}
+.content-bottom{
+	padding-bottom:90px;
+	border-bottom:1px #CCC solid;
+}
+.content-bottom a{
+	display:inline-block;
+	width:37px;
+	height:34px;
+}
+.content-bottom .but1{
+	background: url(../../../Image/Www/Aboutus/2.png) no-repeat left center ;
+}
+.content-bottom .but2{
+	background: url(../../../Image/Www/Aboutus/2.png) no-repeat -39px  ;
+}
+.content-bottom .but3{
+	background: url(../../../Image/Www/Aboutus/2.png) no-repeat -76px  ;
+}
+.content-bottom .but4{
+	background: url(../../../Image/Www/Aboutus/2.png) no-repeat -113px  ;
+}
+.content-bottom .but5{
+	background: url(../../../Image/Www/Aboutus/2.png) no-repeat -152px  ;
+}
+
+.content-bottom .but6{
+	background: url(../../../Image/Www/Aboutus/2.png) no-repeat -190px  ;
+}
+/*   joinus start  */
+.navbut_dynamic{
+	display:inline-block;
+	width:180px;
+	height:69px;
+	background:#c40000 ;
+}
+.joinus{
+	width:1191px;
+	margin:0 auto;
+	padding:40px 20px ;
+	font-size:16px;
+	font-family:"微软雅黑";
+	border-bottom:1px #CCC solid;
+}
+.joinus .present {
+	display:inline-block;
+	padding:16px 20px;
+	padding-bottom:25px;
+	line-height:30px;
+	margin-bottom:55px;
+	border:1px #ccc solid;
+}
+.joinus h1{
+	padding-bottom:42px;
+}
+.ui{
+	height:35px;
+	text-align:right;
+	border-bottom:1px #ccc solid;
+}
+.ui i{
+	float:left;
+    display:inline-block;
+	vertical-align:middle;
+	color:#008aeb;
+	font-size:20px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+}
+.claim{
+	padding:26px 23px ;
+	line-height:40px;
+}
+label{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:46px;
+	float:left;
+}
+.claim ul{
+	float:left;
+}
+.duty{
+	margin-bottom:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

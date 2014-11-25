@@ -1,0 +1,343 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*--------------------Banner设置开始-----------------------*/
+.center-right0{
+	padding-left: 20px;
+	margin-left: 2px;
+	padding-top:15px;
+	width: 966px;
+	*width: 942px;
+	min-height: 500px;
+}
+.banner-set h4{
+	height:23px;
+	font-size:19px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	color:#333;
+	margin-bottom:15px;
+	text-indent:22px;
+	background:url(../../Image/Saler/.center-right0-1.png) no-repeat left bottom;
+}
+.banner-set-head{
+  	width:920px;
+	height:108px;
+	font-size:12px;
+	padding:13px 24px;
+	margin-bottom:10px;
+	background:#f2f2f2;
+}
+.banner-set-head ul li{
+	margin-bottom:5px;
+}
+.tips{
+	color:#ff591b;
+	font-size:14px;
+	padding-bottom:10px;
+}
+.banner-set-center{
+	width:920px;
+	padding-top: 29px;
+	padding-bottom:21px;
+	border:1px #000 solid;
+}
+.banner-set-center ul{
+	margin-bottom:25px;
+	padding-left:28px;
+	border-bottom:1px #CCC dashed
+}
+.banner-set-center ul li{
+	margin-bottom:30px;
+}
+.banner-set-center ul li p{
+	height:23px;
+	line-height:23px;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:17px;
+	margin-bottom:13px;
+}
+.upload{
+	float:right;
+	width:463px;
+	font-size:12px;
+	margin-right:46px;
+}
+.uploadformat{
+	width:463px;
+	height:105px;
+	padding:20px 22px;
+	margin-bottom:27px;
+	font-size:12px!important;
+	font-weight:normal;
+	background:#f3f3f3;
+}
+.uploadformat p{
+	font-weight:normal!important;
+}
+.uploadformat .jsoup{
+	width:73px;
+	height:25px;
+	border:1px solid #dddddd;
+	margin-right:5px;
+	border-right:1px solid #999;
+	 -moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */
+	background: #fff -webkit-gradient(linear, 0% 31%, 0% 100%, from(#FFFFFF), to(#666666), color-stop(.9,#E6E6E6));
+}
+
+.uploadformat .way{
+	display:inline-block;
+	width:317px;
+	height:33px;
+	border:1px solid #666;
+}
+.bannershow{
+	width:319px;
+	height:231px;
+	background: url(../../Image/Saler/upload.png) center no-repeat  #f5f5f5 ;
+}
+.bannershow img{
+	width:319px;
+	height:231px;
+}
+.upload ul{
+	padding-left:0px;
+	border:none;
+}
+.upload ul li{
+	margin-bottom:10px;
+	color:#999;
+}
+.upload ul .standard{
+	line-height:25px;
+	margin-top:-3px;
+}
+.upload ul li span{
+	color:#ff6026;
+}
+.banner-set-center .sub {
+	display:block;
+	width:70px;
+	height:34px;
+	line-height:32px;
+	text-align:center;
+	color:#fff;
+	margin:0 auto;
+	font-weight:bold;
+	font-family:"微软雅黑";
+	background:#ff6026;
+	border:none;
+
+}
+/*----------------------show开始--------------------------*/
+
+.reveal p{
+	float:right;
+	font-size:14px;
+}
+.reveal h4{
+	float:left;
+	margin-bottom:21px;
+}
+.list{
+	clear:both;
+	padding:12px 23px; 
+	font-size:12px;
+	margin-bottom:17px;
+	background:#f2f2f2;
+}
+.list ul li{
+	margin:5px;
+}
+.list ul li span{
+	color:#ff6026;
+}
+.reveal h3{
+    height:36px;
+	line-height:36px;
+	width:945px;
+	font-size:14px;
+	font-weight:bold;
+	color:#666;
+	margin-bottom:15px;
+	text-indent:22px;
+	background:#f2f2f2 url(../../Image/Saler/.center-right0-1.png) no-repeat left center;
+}  
+.box{
+	width:942px;
+	height:248px;
+	margin-bottom:18px;
+	border:1px solid #000;
+}
+.keep{
+	float:left;
+	padding:53px 79px;
+	color:#000;
+	font-size:14px;
+	font-weight:bold;
+}
+.keep input{
+	margin-left:15px;
+}
+.keep .sub{
+	display:block;
+	width:88px;
+	height:31px;
+	margin-top:44px;
+	margin-left:122px;
+	line-height:31px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	font-weight:bold;
+	font-family:"微软雅黑";
+	background:#ff6026;
+	border:1px solid #ffe0d4;
+}
+.box img{
+	display:inline-block;
+	float:right;
+	margin-top:24px;
+	margin-right:24px;
+	width:339px;
+	height:202px;
+}
+.but{
+	width:344px;
+	height:205px;
+	margin-left:80px;
+	border:1px solid #CCC;
+}
+.but h1{
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	padding-left:10px;
+	background:#f5f5f5 url(../../Image/Saler/close.png) no-repeat center right;
+}
+.but img{
+	display:inline-block;
+	margin-top:32px;
+	margin-left:67px;
+}
+.but span{
+	display:block;
+	color:#ff6026;
+	font-size:14px;
+	margin-top:-25px;
+	margin-left:157px;
+}
+.but a{
+	display:block;
+	width:50px;
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+	padding-left:13px;
+	margin:0 auto;
+	margin-top:50px;
+	border:1px solid #ccc;
+	-moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */
+	background: #fff -webkit-gradient(linear, 0% 31%, 0% 100%, from(#FFFFFF), to(#666666), color-stop(.9,#E6E6E6));
+}
+
+/*-------------signs开始-------------------*/
+.signs{
+	width:945px;
+	font-weight:bold;
+	margin-bottom:55px;
+	border:1px solid #000;
+}
+.signs{
+    padding-top:46px;
+}
+.signs dl{
+    overflow:hidden;
+	padding-bottom:25px;
+	margin-left:115px;
+}
+.signs dt{ width:92px; font-size:12px; font-weight:normal; height:33px; line-height:33px; text-align:right;}
+.signs dd{ width:730px;}
+.signs dt, .signs dd{
+    float:left;
+	min-height:33px;
+	margin-left: 0;
+    margin-bottom: 15px;
+} 
+.signs .sub-btn{border-top:1px #CCC dashed;}
+.signs .show-mode{
+	margin-left:84px;
+	margin-bottom:37px;
+}
+dd{
+	font-size:12px;
+	margin-left:55px;
+	margin-bottom:20px;
+	font-weight:normal;   
+}
+dd input{
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:10px;
+	width:317px;
+	height:33px;
+}
+.companylogo{
+	margin-left:65px;
+}
+.companylogo input{
+	width:73px;
+	height:25px;
+	border:1px #CCC solid;
+	-moz-border-radius: 3px;      /* Gecko browsers */
+    -webkit-border-radius: 3px;   /* Webkit browsers */
+    border-radius:3px;            /* W3C syntax */
+	background: #fff -webkit-gradient(linear, 0% 31%, 0% 100%, from(#FFFFFF), to(#666666), color-stop(.9,#E6E6E6));
+}
+.signs dl dd span{
+	color:#999;
+	margin-left:10px;
+}
+.signs .mi{color:#fa6400;}
+.case{
+	width:164px;
+	height:100px;
+	text-align: center;
+	margin-left:10px;
+	padding-bottom:32px;
+	border:1px solid #666;
+	background:url(../../Image/Saler/upload.png) no-repeat center;
+}
+.case img{ max-width:162px; max-height:98px; _width:162px; _height:98px;}
+.print{
+	width:602px;
+	height:142px;
+	text-align:center;
+	padding-bottom:32px;
+	border:1px solid #666;
+	background:url(../../Image/Saler/upload.png) no-repeat center #f5f5f5;
+}
+.print img{ max-width:600px; max-height:140px; _width:600px; _height:140px; }
+.signs .but-sub{
+	display:block;
+	width:69px;
+	height:33px;
+	margin:0 auto;
+	margin-top:24px;
+	margin-bottom:24px;
+	line-height:33px;
+	text-align:center;
+	color:#fff;
+	font-family:"微软雅黑";
+	background:#ff6026;
+	border:none;
+}
+
+.signs .uploadify{ float:left; margin-left:10px;}
+.signs .uploadify-button{ margin:0;}

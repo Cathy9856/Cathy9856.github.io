@@ -1,0 +1,30 @@
+SCC = This is a Source Code Control file.
+
+[QiYi.Web.Controls.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.Controls
+
+[QiYi.Web.DynJs.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.DynJs
+
+[QiYi.Web.Image.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.Image
+
+[QiYi.Web.Login.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.Login
+
+[QiYi.Web.Manage.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.Manage
+
+[QiYi.Web.My.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.My
+
+[QiYi.Web.Saler.csproj]
+SCC_Aux_Path = 192.168.253.9:8877:VSS
+SCC_Project_Name = $/QiYi/SourceCode/QiYiWebV1.0/QiYi.Web.Saler
+

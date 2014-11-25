@@ -1,0 +1,105 @@
+.login-box{ width:1190px; margin:0 auto;}
+
+.login-banner,.login-enterwindows{
+	display: block;
+	float: left;
+}
+
+.login-banner{
+	width: 756px;
+	height: 530px;
+	overflow: hidden;
+}
+.login-banner>img{
+	width: 360px;
+	height: 360px;
+	display: block;
+	margin: auto;
+}
+.login-enterwindows{
+	width: 434px;
+	height: 530px;
+	overflow: hidden;
+}
+.login-enterwindows>div{
+	width: 320px;
+	height: 360px;
+	border: 2px solid #DEDEDE;
+	border-top: 2px solid #FA6400;
+	margin-left: 25px;
+}
+.login-enterwindows>div>ul{
+	width: 255px;
+	margin: auto;
+	padding-top: 25px;
+}
+.login-enterwindows>div>ul>li{
+	line-height: 24px;
+	overflow: hidden;
+}
+.login-enterwindows li{
+	cursor: default;
+}
+.login-enterwindows-li0{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.login-enterwindows-li1{
+	color:#C40000;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.login-enterwindows-li1>img{
+	margin-right: 8px;
+	display: inline;
+	margin-top: 2px;
+}
+.login-enterwindows-li2{
+	color: #646464;
+	font-weight: bold;
+	font-size: 12px;
+}
+.login-enterwindows-li3{
+	width: 100%;
+	margin-bottom: 13px;
+}
+.login-enterwindows-li4{
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.login-enterwindows-li4>a{
+	color: #646464;
+	font-size: 12px;
+	cursor: pointer;
+}
+.login-enterwindows-li4>a:hover{
+	color: #FA6400;
+}
+.login-enterwindows-input0{
+	width: 100%;
+	border: 1px solid #DEDEDE;
+	height: 28px;
+	padding: 5px 10px;
+	color: #A9A9A9;
+	*width: 233px;
+	*height: 16px;
+}
+.login-enterwindows-input1{
+	width: 100%;
+	height: 38px;
+	color: #FFF;
+	border: none;
+	font-size: 16px;
+	letter-spacing: 2em;
+	padding-left: 2em;
+	*padding-left:0em;
+	background: #FA6400;
+	cursor: pointer;
+}
+.login-enterwindows-input1:hover{
+	background: #C40000;
+}
+

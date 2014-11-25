@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="../resource/css/common/index.css"> -->
+        <link rel="stylesheet" href="../Resource/Css/Product/product.css">
+		<script type="text/javascript" src="../Resource/Js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript">
+		$(function(){
+			$(".group>dl>dt").hover(function(){
+				$(".group>dl>dt").removeClass("group-hover");				
+				$(this).addClass("group-hover");
+				$(this).parent().next().show();
+			})
+			$(".group").mouseleave(function(){
+				$(".group>dl>dt").removeClass("group-hover");	
+				$(".sub-nav").hide();
+			})
+		})
+		</script>
+        <title>
+        </title>
+    </head>
+    
+    <body>
+        <!--头-->
+        <div class="header">
+            <div class="header-text">
+                <div>
+                    <!--内容居中-->
+                    <span>
+                        xxx您好，欢迎来到企翼网
+                    </span>
+                    <span class="text-red login-enter">
+                        <a class="text-red" href="#">
+                            请登录
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#">
+                            免费注册
+                        </a>
+                    </span>
+                    <ul>
+                        <li>
+                            <a class="header-navlink" href="#">
+                                企翼网首页
+                            </a>
+                        </li>
+                        <li>
+                            <a class="header-navlink" href="#">
+                                账户中心
+                            </a>
+                        </li>
+                        <li>
+                            <a class="header-navlink" href="#">
+                                买家中心
+                                <span class="header-navicon">
+                                </span>
+                            </a>
+                            <ul class="header-nav">
+                                <li>
+                                    <a href="#">
+                                        发布求购信息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        管理求购信息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        我的询价单
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="header-navlink" href="#">
+                                卖家中心
+                                <span class="header-navicon">
+                                </span>
+                            </a>
+                            <ul class="header-nav">
+                                <li>
+                                    <a href="#">
+                                        发布供应信息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        管理供应信息
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        商铺装修
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="header-navlink" href="#">
+                                客服中心
+                                <span class="header-navicon">
+                                </span>
+                            </a>
+                            <ul class="header-nav-small">
+                                <li>
+                                    <a href="#">
+                                        新手入门
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        买家帮助
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        卖家帮助
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        在线咨询
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        联系客服
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="header-navlink" href="#">
+                                网站导航
+                                <span class="header-navicon">
+                                </span>
+                            </a>
+                            <ul class="header-nav-big">
+                                <li>
+                                    <span>
+                                        行业市场
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                原材料
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                工业品电子
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                包装纺织服装
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                鞋包家
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                装家居百货数码
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                家电
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                小商
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                农食美妆家
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                纺家饰
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>
+                                        咨询服务
+                                    </span>
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                今日头条
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                行业资讯
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                &nbsp;
+                                            </span>
+                                            <a href="#">
+                                                百科
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-center header-center4">
+                <div>
+                    <!-- 内容居中，第四套 -->
+                    <div class="header-center-status4">
+                        账户中心
+                    </div>
+                    <div class="header-nav-search">
+                        <input class="header-nav-type-text" type="text" placeholder="输入你要查找的产品关键词"
+                        />
+                        <input class="header-nav-type-button" type="button" value="搜索" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--身-->
+        <div class="content prod-index">
+            <div class="main-head">
+				<div class="main-head-left">
+					<div class="banner">
+						<div class="scroll-img">
+							<ul>
+								<li><a href="#"><img width="720" src="http://Img04.QiPuCheng.com/Img04/84/04/77/5fdfcb28-1033-4b7a-8950-20ac0560aca6.jpg"></a></li>
+								<li><a href="#"><img width="720" src="http://Img04.QiPuCheng.com/Img04/84/04/77/5fdfcb28-1033-4b7a-8950-20ac0560aca6.jpg"></a></li>
+								<li><a href="#"><img width="720" src="http://Img04.QiPuCheng.com/Img04/84/04/77/5fdfcb28-1033-4b7a-8950-20ac0560aca6.jpg"></a></li>
+							</ul>
+						</div>
+						<div class="scroll-list">
+							<ul>
+								<li class="current"><a href="javascript:;">1</a></li>
+								<li><a href="javascript:;">2</a></li>
+								<li><a href="javascript:;">3</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="main-head-right">
+<!-- 				<div class="no-login">
+						<div class="enter-login"><a href="#" class="login">登录</a><a href="#">注册</a></div>
+						<div class="enter-buy"><a href="#">发布求购信息</a></div>
+					</div> -->
+					<div class="in-login">
+					    <div class="enter-login"><span class="user-name">Hi,qiyiwang888</span></div>
+						<div class="enter-buy"><a href="#">发布求购信息</a></div>
+					</div>
+					<div class="prod-hotsearch">
+						<div class="hot-title">
+							<h2>产品热搜榜</h2>
+							<div class="page-turn">
+							    <div class="num">1/3</div>
+								<div class="tab">
+									<span class="prev">&lt;</span>
+									<span class="next">&gt;</span>
+								</div>
+							</div>
+						</div>
+						<div class="hot-con">
+							<ul>
+								<li>
+									<dl>
+										<dt>关键词：</dt>
+										<dd><a href="#">亚克力鱼缸</a></dd>
+										<dt>商  铺：</dt>
+										<dd><a href="#">大型水族工程-水族工程设</a></dd>
+									</dl>
+								</li>
+								<li>
+								    <dl>
+										<dt>关键词：</dt>
+										<dd><a href="#">亚克力鱼缸</a></dd>
+										<dt>商  铺：</dt>
+										<dd><a href="#">大型水族工程-水族工程设</a></dd>
+									</dl>
+								</li>
+								<li>
+								    <dl>
+										<dt>关键词：</dt>
+										<dd><a href="#">亚克力鱼缸</a></dd>
+										<dt>商  铺：</dt>
+										<dd><a href="#">大型水族工程-水族工程设</a></dd>
+									</dl>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+            </div>
+            <div class="hot-search">
+				<div class="title">
+					<h2>企搜宝热门搜索</h2>
+					<a href="#">如何才能出现在这里?</a>
+					<div class="clear:both;"></div>
+				</div>
+				<div class="con">
+					<div class="list-pic">
+						<ul>
+							<li>
+								<a href="#" target="_blank" class="listimg">
+									<img src="../../resource/image/www/chanpin7.jpg">
+								</a>
+								<div class="listlink">
+									<span class="num">1</span>
+									<a href="#">休闲款式休闲款式休闲</a>
+									<a href="#">常州市天宁区美吉特科技五金城19幢141-142号</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="listimg">
+									<img src="../../resource/image/www/chanpin7.jpg">
+								</a>
+								<div class="listlink">
+									<span class="num">2</span>
+									<a href="#">休闲款式休闲款式休闲</a>
+									<a href="#">常州市天宁区美吉特科技五金城19幢141-142号</a>
+								</div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="listimg">
+									<img src="../../resource/image/www/chanpin7.jpg">
+								</a>
+								<div class="listlink">
+									<span class="num">3</span>
+									<a href="#">休闲款式休闲款式休闲</a>
+									<a href="#">常州市天宁区美吉特科技五金城19幢141-142号</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="list-text">
+						<ul>
+							<li>
+								<span class="num">4</span>
+								<a href="#" class="wenzi">带有复古气息的纯艺范</a>
+							</li>
+							<li>
+								<span class="num">5</span>
+								<a href="#" class="wenzi">带有复古气息的纯艺范</a>
+							</li>
+							<li>
+								<span class="num">6</span>
+								<a href="#" class="wenzi">带有复古气息的纯艺范</a>
+							</li>
+						</ul>
+					</div>
+					<div class="list-text">
+						<ul>
+							<li>
+								<span class="num">4</span>
+								<a href="#" class="wenzi">带有复古气息的纯艺范</a>
+							</li>
+							<li>
+								<span class="num">5</span>
+								<a href="#" class="wenzi">带有复古气息的纯艺范</a>
+							</li>
+							<li>
+								<span class="num">6</span>
+								<a href="#" class="wenzi">带有复古气息的纯艺范</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+            <div class="all-market-bg">
+				<div class="all-market">
+					<h2>所有行业市场</h2>
+					<div class="market-menu">
+						<div class="market-list">
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+								<div class="sub-nav">
+									<div class="sub-item">
+										<dl>
+											<dt>服饰</dt>
+											<dd>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>内衣</dt>
+											<dd>
+												<a href="#">女装时髦套装</a>
+												<a href="#">棒球棒球棒球</a>
+												<a href="#">外套外套外套</a>
+												<a href="#">外套重工精品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套外套棉</a>
+												<a href="#">外套外套恤潮</a>
+												<a href="#">外套外套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>运动</dt>
+											<dd>
+												<a href="#">女装时髦套装</a>
+												<a href="#">棒球棒球棒球</a>
+												<a href="#">外套外套外套</a>
+												<a href="#">外套重工精品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套外套棉</a>
+												<a href="#">外套外套恤潮</a>
+												<a href="#">外套外套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>
+										<a target="_blank" href="#">短款开衫</a>
+										<a target="_blank" href="#">防晒衣情侣</a>
+										<a target="_blank" href="#">中长款衬衫</a>
+										<a target="_blank" href="#">t恤裙</a>
+										<a target="_blank" href="#">韩版衬衣</a>
+										<a target="_blank" class="red" href="#">胖mm套装</a>
+										<a target="_blank" href="#">开衫雪纺</a>
+										<a target="_blank" href="#">镂空蕾丝</a>
+										<a target="_blank" href="#">马甲背心</a>
+										<a target="_blank" href="#">潮牌</a>
+										<a target="_blank" href="#">长袖罩衫</a>
+										<a target="_blank" href="#">简约t恤短袖</a>
+										<a target="_blank" href="#">超短t恤</a>
+										<a target="_blank" href="#">埃斯普利特</a>
+										<a target="_blank" href="#">花边背心</a>
+										<a target="_blank" href="#">海军风t恤</a>
+										<a target="_blank" href="#">复古t恤</a>
+										<a target="_blank" href="#">雪纺</a>
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+								<div class="sub-nav">
+									<div class="sub-item">
+										<dl>
+											<dt>服饰</dt>
+											<dd>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+												<a href="#">女装时髦</a>
+												<a href="#">棒球</a>
+												<a href="#">外套外</a>
+												<a href="#">外品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套恤潮</a>
+												<a href="#">外套套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>内衣</dt>
+											<dd>
+												<a href="#">女装时髦套装</a>
+												<a href="#">棒球棒球棒球</a>
+												<a href="#">外套外套外套</a>
+												<a href="#">外套重工精品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套外套棉</a>
+												<a href="#">外套外套恤潮</a>
+												<a href="#">外套外套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+											</dd>
+										</dl>
+										<dl>
+											<dt>运动</dt>
+											<dd>
+												<a href="#">女装时髦套装</a>
+												<a href="#">棒球棒球棒球</a>
+												<a href="#">外套外套外套</a>
+												<a href="#">外套重工精品</a>
+												<a href="#">男外套外套装</a>
+												<a href="#">纯外套外套棉</a>
+												<a href="#">外套外套恤潮</a>
+												<a href="#">外套外套衬衫</a>
+												<a href="#">牛外外套仔裤</a>
+											</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+							<div class="group">
+								<dl>
+									<dt><a target="_blank" href="#">服饰/内衣/运动<b></b></a></dt>
+									<dd><a target="_blank" href="#">格子衬衫</a>|
+										<a target="_blank" href="#">短款开衫</a>|
+										<a target="_blank" href="#">防晒衣情侣</a>|
+										<a target="_blank" href="#">中长款衬衫</a>|
+										<a target="_blank" href="#">t恤裙</a>|
+										<a target="_blank" href="#">韩版衬衣</a>|
+										<a target="_blank" class="red" href="#">胖mm套装</a>|
+										<a target="_blank" href="#">开衫雪纺</a>|
+										<a target="_blank" href="#">镂空蕾丝</a>|
+										<a target="_blank" href="#">马甲背心</a>|
+										<a target="_blank" href="#">潮牌</a>|
+										<a target="_blank" href="#">长袖罩衫</a>|
+										<a target="_blank" href="#">简约t恤短袖</a>|
+										<a target="_blank" href="#">超短t恤</a>|
+										<a target="_blank" href="#">埃斯普利特</a>|
+										<a target="_blank" href="#">花边背心</a>|
+										<a target="_blank" href="#">海军风t恤</a>|
+										<a target="_blank" href="#">复古t恤</a>|
+										<a target="_blank" href="#">雪纺</a>|
+										<a target="_blank" href="#">网纱背心</a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hot-product">
+				<div class="title"><h2>热销产品</h2></div>
+				<div class="con">
+					<ul>
+						<li>
+							<div class="show-pic"><a href="#"></a></div>
+							<div class="show-price">¥68.0</div>
+							<div class="show-name"><a href="#">新款韩版气质修身背心裙长袖</a></div>
+						</li>
+						<li>
+							<div class="show-pic"><a href="#"></a></div>
+							<div class="show-price">¥68.0</div>
+							<div class="show-name"><a href="#">新款韩版气质修身背心裙长袖</a></div>
+						</li>
+						<li>
+							<div class="show-pic"><a href="#"></a></div>
+							<div class="show-price">¥68.0</div>
+							<div class="show-name"><a href="#">新款韩版气质修身背心裙长袖</a></div>
+						</li>
+						<li>
+							<div class="show-pic"><a href="#"></a></div>
+							<div class="show-price">¥68.0</div>
+							<div class="show-name"><a href="#">新款韩版气质修身背心裙长袖</a></div>
+						</li>
+						<li>
+							<div class="show-pic"><a href="#"></a></div>
+							<div class="show-price">¥68.0</div>
+							<div class="show-name"><a href="#">新款韩版气质修身背心裙长袖</a></div>
+						</li>
+						<li>
+							<div class="show-pic"><a href="#"></a></div>
+							<div class="show-price">¥68.0</div>
+							<div class="show-name"><a href="#">新款韩版气质修身背心裙长袖</a></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+            <div class="friendlink">
+				<div class="title">
+					<h2>友情链接</h2>
+					<a class="more" href="#">更多</a>
+				</div>
+				<div class="con">
+					<a href="#">热搜榜</a>
+					<a href="#">奇艺视频</a>
+					<a href="#">优惠券折点</a>
+					<a href="#">看红酒网</a>
+					<a href="#">查好评我要</a>
+					<a href="#">易购114</a>
+					<a href="#">搜购有机</a>
+					<a href="#">食品商城</a>
+					<a href="#">民族风女装</a>
+					<a href="#">我要三省</a>
+					<a href="#">网零点零点</a>
+					<a href="#">热搜榜</a>
+					<a href="#">奇艺视频</a>
+					<a href="#">优惠券折点</a>
+					<a href="#">看红酒网</a>
+					<a href="#">查好评我要</a>
+					<a href="#">易购114</a>
+					<a href="#">搜购有机</a>
+					<a href="#">食品商城</a>
+					<a href="#">民族风女装</a>
+					<a href="#">我要三省</a>
+					<a href="#">网零点零点</a>
+				</div>
+			</div>
+        </div>
+        <!--脚-->
+        <div class="footer">
+            <div>
+                <!--内容居中-->
+                <ul class="footer-about">
+                    <li>
+                        关于我们
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        联系我们
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        加入我们
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        法律声明
+                    </li>
+                    <li>
+                        |
+                    </li>
+                    <li>
+                        服务条款
+                    </li>
+                </ul>
+                <p>
+                    copyright (c) 企翼网 2004-2014, all rights reserved
+                </p>
+                <ul class="footer-papers">
+                    <li>
+                        增值电信业务经营许可证:浙b2-20070066
+                    </li>
+                    <li>
+                        互联网药品信息服务资格证书:(浙)-经营性-20chanpin1-0009
+                    </li>
+                    <li>
+                        信息网络传播视听节目许可证:1109366
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

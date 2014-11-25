@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* 
+	@名称: base
+	@功能: 重设浏览器默认样式
+*/
+
+/*页面公用样式*/
+body{ font-size: 12px; font-family: "宋体"; margin: 0; padding: 0;}
+ul, li, dl, dt, dd, p, h2{ margin: 0; padding: 0;}
+li{ list-style: none;}
+a{ text-decoration: none;}
+img{ border: 0; display: inline-block;}
+table{ border-collapse:collapse;}
+div{ overflow: hidden;}
+
+.fl{ float: left;}
+.fr{ float: right;}
