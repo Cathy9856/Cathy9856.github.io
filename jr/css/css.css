@@ -6,7 +6,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .hide {display: none;}
 .swiper-container {width: 100%;height: 100%;color: #fff;text-align: center;}
 
-.page-1-1{ background:url(../image/img01.jpg) no-repeat 0 0;background-size: 100%; z-index:10;}
-.page-2-1{ background:url(../image/img02.jpg) no-repeat 0 0;background-size: 100%; z-index:20;}
+.page-1-1{ background:url(../image/img01.jpg) no-repeat 0 0;background-size: 100%;}
+.page-2-1{ background:url(../image/img02.jpg) no-repeat 0 0;background-size: 100%;}
 
 .page-current {z-index: 1;}
