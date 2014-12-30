@@ -1,0 +1,12 @@
+html {height: 100%;}
+body {margin: 0;padding: 0;font: normal 100% Helvetica, Arial, sans-serif;line-height: 1.5;position: relative;height: 100%;-webkit-text-size-adjust: 100%;-webkit-user-select: none;user-select: none;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block;}
+
+.page {width: 100%;height: 100%;position: absolute;font-size: 100px;text-align: center;}
+.hide {display: none;}
+.swiper-container {width: 100%;height: 100%;color: #fff;text-align: center;}
+
+.page-1-1{ background:url(../image/img01.jpg) no-repeat 0 0;background-size: 100%;}
+.page-2-1{ background:url(../image/img02.jpg) no-repeat 0 0;background-size: 100%;}
+
+.page-current {z-index: 1;}
