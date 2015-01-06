@@ -8,5 +8,55 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .page-1-1{ background:url(../image/img01.jpg) no-repeat 0 0;background-size: 100%;}
 .page-2-1{ background:url(../image/img02.jpg) no-repeat 0 0;background-size: 100%;}
+.page-3-1{ background:url(../image/img03.jpg) no-repeat 0 0;background-size: 100%;}
+.page-4-1{ background:url(../image/img04.jpg) no-repeat 0 0;background-size: 100%;}
+.page-5-1{ background:url(../image/img05.jpg) no-repeat 0 0;background-size: 100%;}
+.page-6-1{ background:url(../image/img06.jpg) no-repeat 0 0;background-size: 100%;}
+.page-7-1{ background:url(../image/img07.jpg) no-repeat 0 0;background-size: 100%;}
+.page-8-1{ background:url(../image/img08.jpg) no-repeat 0 0;background-size: 100%;}
+.page-9-1{ background:url(../image/img09.jpg) no-repeat 0 0;background-size: 100%;}
+
+@keyframes yguide_down{
+	0%,100%{
+		transform:translateY(0);
+		-moz-transform:translateY(0);
+		-o-transform:translateY(0);
+		-webkit-transform:translateY(0);
+		-ms-transform:translateY(0);
+		opacity:0;
+	}
+	50%{
+		transform:translateY(60px);
+		-moz-transform:translateY(60px);
+		-o-transform:translateY(60px);
+		-webkit-transform:translateY(60px);
+		-ms-transform:translateY(60px);
+		opacity:1;
+	}
+
+}
+@-webkit-keyframes yguide_down{
+	0%,100%{
+		transform:translateY(0);
+		-moz-transform:translateY(0);
+		-o-transform:translateY(0);
+		-webkit-transform:translateY(0);
+		-ms-transform:translateY(0);
+		opacity:0;
+	}
+	50%{
+		transform:translateY(60px);
+		-moz-transform:translateY(60px);
+		-o-transform:translateY(60px);
+		-webkit-transform:translateY(60px);
+		-ms-transform:translateY(60px);
+		opacity:1;
+	}
+
+}
+
+.arrow-up{ display:inline-block; width:66px; height:25px; margin:0 auto; position:fixed; bottom:25px; background:url(../image/arrow_up.png) no-repeat 0 0; z-index:10;}
+.arrow-down{ display:inline-block; width:66px; height:25px; margin:0 auto; position:fixed; bottom:25px; background:url(../image/arrow_down.png) no-repeat 0 0; z-index:10;}
+.trans{-webkit-animation:yguide_down 4.0s infinite ease-in-out;-moz-animation:yguide_down 4.0s infinite ease-in-out;-o-animation:yguide_down 4.0s infinite ease-in-out;animation:yguide_down 4.0s infinite ease-in-out;}
 
 .page-current {z-index: 1;}

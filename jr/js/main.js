@@ -16,7 +16,12 @@
 		if (isAnimating) return;
 		last.row = now.row;
 		last.col = now.col;
-		if (last.row != 5) { now.row = last.row + 1; now.col = 1; pageMove(towards.up);}	
+		if (last.row != 9) { 
+			now.row = last.row + 1; now.col = 1; pageMove(towards.up);
+		}
+        if (last.row == 8) {
+			$("a").removeClass("arrow-down").addClass("arrow-up");
+		}
 	})
 
 	$(document).swipeDown(function(){
@@ -24,13 +29,16 @@
 		last.row = now.row;
 		last.col = now.col;
 		if (last.row != 1) { now.row = last.row - 1; now.col = 1; pageMove(towards.down);}	
+		if (last.row == 1) {
+			$("a").removeClass("arrow-down").addClass("arrow-up");
+		}
 	})
 
 	$(document).swipeLeft(function(){
 		if (isAnimating) return;
 		last.row = now.row;
 		last.col = now.col;
-		if (last.row > 1 && last.row < 5 && last.row != 3 && last.row != 4 && last.row != 5 && last.col == 1) {
+		if (last.row > 1 && last.row < 9 && last.row != 3 && last.row != 4 && last.row != 5 && last.col == 1) {
 			now.row = last.row;
 			now.col = 2;
 			pageMove(towards.left);
@@ -41,7 +49,7 @@
 		if (isAnimating) return;
 		last.row = now.row;
 		last.col = now.col;
-		if (last.row > 1 && last.row < 5 && last.col == 2) {
+		if (last.row > 1 && last.row < 9 && last.col == 2) {
 			now.row = last.row;
 			now.col = 1;
 			pageMove(towards.right);
