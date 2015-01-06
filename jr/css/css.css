@@ -14,7 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .page-6-1{ background:url(../image/img06.jpg) no-repeat 0 0;background-size: 100%;}
 .page-7-1{ background:url(../image/img07.jpg) no-repeat 0 0;background-size: 100%;}
 .page-8-1{ background:url(../image/img08.jpg) no-repeat 0 0;background-size: 100%;}
-.page-9-1{ background:url(../image/img09.jpg) no-repeat 0 0;background-size: 100%;}
+.page-9-1{ background:url(../image/img09.jpg) no-repeat 0 0;background-size: 100%;position:relative;}
 
 @keyframes yguide_down{
 	0%,100%{
@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 
 @media screen and (min-width: 640px) {
-.form-apply{ overflow:hidden;}
+.form-apply{ overflow:hidden;position:absolute;bottom:100px;}
 .form-apply dt{ float:left; width:184px; height:80px; line-height:80px; font-size:30px; text-align:right; font-family:"Microsoft Yahei"; color:#818181; margin-bottom:18px;}
 .form-apply dd{ float:left; width:320px; height:80px; margin:0; margin-bottom:18px;}
 .form-apply .txt{ float:left; width:311px; height:74px; padding:2px; border:1px solid #d4dee2;}
@@ -72,7 +72,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 @media screen and (min-width: 320px) and (max-width: 639px) {
-.form-apply{ overflow:hidden;}
+.form-apply{ overflow:hidden;position:absolute;bottom:100px;}
 .form-apply dt{ float:left; width:92px; height:40px; line-height:40px; font-size:16px; text-align:right; font-family:"Microsoft Yahei"; color:#818181; margin-bottom:9px;}
 .form-apply dd{ float:left; width:160px; height:40px; margin:0; margin-bottom:9px;}
 .form-apply .txt{ float:left; width:155px; height:38px; padding:2px; border:1px solid #d4dee2;}
