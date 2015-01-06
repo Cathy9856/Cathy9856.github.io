@@ -72,9 +72,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 }
 
 @media screen and (min-width: 320px) and (max-width: 639px) {
-.form-apply{ width:320px; overflow:hidden;position:absolute;left:50%;bottom:40px;margin-left:-160px;}
+.form-apply{ width:320px; overflow:hidden;position:absolute;left:50%;bottom:10px;margin-left:-160px;}
 .form-apply dt{ float:left; width:100px; height:40px; line-height:40px; font-size:16px; text-align:right; font-family:"Microsoft Yahei"; color:#818181; margin-bottom:9px;}
-.form-apply dd{ float:left; width:220px; height:40px; margin:0; margin-bottom:9px;}
-.form-apply .txt{ float:left; width:220px; height:38px; padding:2px; border:1px solid #d4dee2;}
+.form-apply dd{ float:left; width:200px; height:40px; margin:0; margin-bottom:9px;}
+.form-apply .txt{ float:left; width:200px; height:38px; padding:2px; border:1px solid #d4dee2;}
 .form-apply .btn{ float:left; width:127px; height:47px; line-height:47px; text-align:center; background:url(../image/btn.png) no-repeat 0 0; margin:0; padding:0; border:0; font-family:"Microsoft Yahei"; font-size:16px; color:#2a2a2a;}
 }
