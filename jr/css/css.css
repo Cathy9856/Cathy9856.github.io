@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 
 @media screen and (min-width: 640px) {
-.form-apply{ overflow:hidden;position:absolute;bottom:100px;}
+.form-apply{ overflow:hidden;position:absolute;bottom:200px;}
 .form-apply dt{ float:left; width:184px; height:80px; line-height:80px; font-size:30px; text-align:right; font-family:"Microsoft Yahei"; color:#818181; margin-bottom:18px;}
 .form-apply dd{ float:left; width:320px; height:80px; margin:0; margin-bottom:18px;}
 .form-apply .txt{ float:left; width:311px; height:74px; padding:2px; border:1px solid #d4dee2;}
