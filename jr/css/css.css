@@ -60,3 +60,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .trans{-webkit-animation:yguide_down 4.0s infinite ease-in-out;-moz-animation:yguide_down 4.0s infinite ease-in-out;-o-animation:yguide_down 4.0s infinite ease-in-out;animation:yguide_down 4.0s infinite ease-in-out;}
 
 .page-current {z-index: 1;}
+
+.form-apply{ overflow:hidden;}
+.form-apply dt{ float:left; width:25%; height:80px; line-height:80px; font-size:30px; text-align:right; font-family:"Microsoft Yahei"; color:#818181; margin-bottom:18px;}
+.form-apply dd{ float:left; width:75%; height:80px; margin:0; margin-bottom:18px;}
+.form-apply .txt{ float:left; width:311px; height:74px; padding:2px; border:1px solid #d4dee2;}
+.form-apply .btn{ float:left; width:254px; height:94px; line-height:94px; text-align:center; background:url(../image/btn.png) no-repeat 0 0; margin:0; padding:0; border:0; font-family:"Microsoft Yahei"; font-size:32px; color:#2a2a2a;}
