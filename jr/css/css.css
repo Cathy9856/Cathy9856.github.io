@@ -55,8 +55,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 }
 
-.arrow-up{ display:inline-block; width:66px; height:25px; position:fixed; left:50%; bottom:100px; margin-left:-33px; background:url(../image/arrow_up.png) no-repeat 0 0; z-index:10;}
-.arrow-down{ display:inline-block; width:66px; height:25px; position:fixed; left:50%; bottom:100px; margin-left:-33px; background:url(../image/arrow_down.png) no-repeat 0 0; z-index:10;}
+.arrow-up{ display:inline-block; width:33px; height:12px; position:fixed; left:50%; bottom:2%; margin-left:-33px; background:url(../image/arrow_up.png) no-repeat 0 0; background-size:33px; z-index:10;}
+.arrow-down{ display:inline-block; width:33px; height:12px; position:fixed; left:50%; bottom:2%; margin-left:-33px; background:url(../image/arrow_down.png) no-repeat 0 0; background-size:33px; z-index:10;}
 .trans{-webkit-animation:yguide_down 4.0s infinite ease-in-out;-moz-animation:yguide_down 4.0s infinite ease-in-out;-o-animation:yguide_down 4.0s infinite ease-in-out;animation:yguide_down 4.0s infinite ease-in-out;}
 
 .page-current {z-index: 1;}
