@@ -20,7 +20,7 @@
 			now.row = last.row + 1; now.col = 1; pageMove(towards.up);
 		}
         if (last.row == 8) {
-			$("a").removeClass("arrow-down").addClass("arrow-up");
+			$("a").removeClass("arrow-up").addClass("arrow-down");
 		}
 	})
 
@@ -29,8 +29,8 @@
 		last.row = now.row;
 		last.col = now.col;
 		if (last.row != 1) { now.row = last.row - 1; now.col = 1; pageMove(towards.down);}	
-		if (last.row == 1) {
-			$("a").removeClass("arrow-up").addClass("arrow-down");
+		if (last.row == 2) {
+			$("a").removeClass("arrow-down").addClass("arrow-up");
 		}
 	})
 
